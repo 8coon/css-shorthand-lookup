@@ -3,12 +3,7 @@ module.exports = {
 	testMatch: ["**/?(*.)+(spec|tests).[jt]s?(x)"],
 	testEnvironment: "jsdom",
 	verbose: false,
-	coverageReporters: [
-		"json-summary",
-		"text",
-		"html",
-		"lcov"
-	],
+	coverageReporters: ['html', 'cobertura', 'text-summary'],
 	collectCoverageFrom: [
 		"src/**/*.{ts,tsx}",
 	]
