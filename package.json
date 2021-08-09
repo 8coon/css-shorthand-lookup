@@ -3,7 +3,7 @@
   "version": "1.0.0-rc.0",
   "description": "A small CSS shorthand property lookup library for CSS parsing and CSSOM traversal",
   "main": "dist/index.js",
-  "types": "dist/index.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
