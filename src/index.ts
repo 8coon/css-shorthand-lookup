@@ -1,6 +1,9 @@
-import {shorthandReverseMap} from './shorthands';
+import { shorthandReverseMap } from "./shorthands";
 
-export function lookupShorthands(fullPropName: string, rule?: CSSStyleRule): string[] {
+export function lookupShorthands(
+	fullPropName: string,
+	rule?: CSSStyleRule
+): string[] {
 	const lookupResult = shorthandReverseMap[fullPropName] ?? [];
 
 	if (rule) {
