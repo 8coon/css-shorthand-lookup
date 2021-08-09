@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lookupShorthands lookup map matches snapshot 1`] = `
+Object {
+  "align-content": Array [
+    "place-content",
+  ],
+  "align-items": Array [
+    "place-items",
+  ],
+  "align-self": Array [
+    "place-self",
+  ],
+  "animation-delay": Array [
+    "animation",
+  ],
+  "animation-direction": Array [
+    "animation",
+  ],
+  "animation-duration": Array [
+    "animation",
+  ],
+  "animation-fill-mode": Array [
+    "animation",
+  ],
+  "animation-iteration-count": Array [
+    "animation",
+  ],
+  "animation-name": Array [
+    "animation",
+  ],
+  "animation-play-state": Array [
+    "animation",
+  ],
+  "animation-timing-function": Array [
+    "animation",
+  ],
+  "background-attachment": Array [
+    "background",
+  ],
+  "background-clip": Array [
+    "background",
+  ],
+  "background-color": Array [
+    "background",
+  ],
+  "background-image": Array [
+    "background",
+  ],
+  "background-origin": Array [
+    "background",
+  ],
+  "background-position": Array [
+    "background",
+  ],
+  "background-repeat": Array [
+    "background",
+  ],
+  "background-size": Array [
+    "background",
+  ],
+  "border-bottom-color": Array [
+    "border-color",
+    "border-bottom",
+  ],
+  "border-bottom-left-radius": Array [
+    "border-radius",
+  ],
+  "border-bottom-right-radius": Array [
+    "border-radius",
+  ],
+  "border-bottom-style": Array [
+    "border-style",
+    "border-bottom",
+  ],
+  "border-bottom-width": Array [
+    "border-width",
+    "border-bottom",
+  ],
+  "border-color": Array [
+    "border",
+  ],
+  "border-left-color": Array [
+    "border-color",
+    "border-left",
+  ],
+  "border-left-style": Array [
+    "border-style",
+    "border-left",
+  ],
+  "border-left-width": Array [
+    "border-width",
+    "border-left",
+  ],
+  "border-right-color": Array [
+    "border-color",
+    "border-right",
+  ],
+  "border-right-style": Array [
+    "border-style",
+    "border-right",
+  ],
+  "border-right-width": Array [
+    "border-width",
+    "border-right",
+  ],
+  "border-style": Array [
+    "border",
+  ],
+  "border-top-color": Array [
+    "border-color",
+    "border-top",
+  ],
+  "border-top-left-radius": Array [
+    "border-radius",
+  ],
+  "border-top-right-radius": Array [
+    "border-radius",
+  ],
+  "border-top-style": Array [
+    "border-style",
+    "border-top",
+  ],
+  "border-top-width": Array [
+    "border-width",
+    "border-top",
+  ],
+  "border-width": Array [
+    "border",
+  ],
+  "column-gap": Array [
+    "grid",
+  ],
+  "column-rule-color": Array [
+    "column-rule",
+  ],
+  "column-rule-style": Array [
+    "column-rule",
+  ],
+  "column-rule-width": Array [
+    "column-rule",
+  ],
+  "columns-count": Array [
+    "columns",
+  ],
+  "columns-width": Array [
+    "columns",
+  ],
+  "flex-basis": Array [
+    "flex",
+  ],
+  "flex-direction": Array [
+    "flex-flow",
+  ],
+  "flex-grow": Array [
+    "flex",
+  ],
+  "flex-shrink": Array [
+    "flex",
+  ],
+  "flex-wrap": Array [
+    "flex-flow",
+  ],
+  "font-family": Array [
+    "font",
+  ],
+  "font-size": Array [
+    "font",
+  ],
+  "font-stretch": Array [
+    "font",
+  ],
+  "font-style": Array [
+    "font",
+  ],
+  "font-variant": Array [
+    "font",
+  ],
+  "font-weight": Array [
+    "font",
+  ],
+  "grid-auto-columns": Array [
+    "grid",
+  ],
+  "grid-auto-flow": Array [
+    "grid",
+  ],
+  "grid-auto-rows": Array [
+    "grid",
+  ],
+  "grid-column-end": Array [
+    "grid-area",
+    "grid-column",
+  ],
+  "grid-column-gap": Array [
+    "grid",
+  ],
+  "grid-column-start": Array [
+    "grid-area",
+    "grid-column",
+  ],
+  "grid-row-end": Array [
+    "grid-area",
+    "grid-row",
+  ],
+  "grid-row-gap": Array [
+    "grid",
+  ],
+  "grid-row-start": Array [
+    "grid-area",
+    "grid-row",
+  ],
+  "grid-template-areas": Array [
+    "grid",
+    "grid-template",
+  ],
+  "grid-template-columns": Array [
+    "grid",
+    "grid-template",
+  ],
+  "grid-template-rows": Array [
+    "grid",
+    "grid-template",
+  ],
+  "justify-content": Array [
+    "place-content",
+  ],
+  "justify-items": Array [
+    "place-items",
+  ],
+  "justify-self": Array [
+    "place-self",
+  ],
+  "line-height": Array [
+    "font",
+  ],
+  "list-style-image": Array [
+    "list-style",
+  ],
+  "list-style-position": Array [
+    "list-style",
+  ],
+  "list-style-type": Array [
+    "list-style",
+  ],
+  "margin-bottom": Array [
+    "margin",
+  ],
+  "margin-left": Array [
+    "margin",
+  ],
+  "margin-right": Array [
+    "margin",
+  ],
+  "margin-top": Array [
+    "margin",
+  ],
+  "offset-anchor": Array [
+    "offset",
+  ],
+  "offset-distance": Array [
+    "offset",
+  ],
+  "offset-path": Array [
+    "offset",
+  ],
+  "offset-position": Array [
+    "offset",
+  ],
+  "offset-rotate": Array [
+    "offset",
+  ],
+  "outline-color": Array [
+    "outline",
+  ],
+  "outline-style": Array [
+    "outline",
+  ],
+  "outline-width": Array [
+    "outline",
+  ],
+  "padding-bottom": Array [
+    "padding",
+  ],
+  "padding-left": Array [
+    "padding",
+  ],
+  "padding-right": Array [
+    "padding",
+  ],
+  "padding-top": Array [
+    "padding",
+  ],
+  "row-gap": Array [
+    "grid",
+  ],
+  "text-decoration-color": Array [
+    "text-decoration",
+  ],
+  "text-decoration-line": Array [
+    "text-decoration",
+  ],
+  "text-decoration-style": Array [
+    "text-decoration",
+  ],
+  "text-decoration-thickness": Array [
+    "text-decoration",
+  ],
+  "transition-delay": Array [
+    "transition",
+  ],
+  "transition-duration": Array [
+    "transition",
+  ],
+  "transition-property": Array [
+    "transition",
+  ],
+  "transition-timing-function": Array [
+    "transition",
+  ],
+}
+`;

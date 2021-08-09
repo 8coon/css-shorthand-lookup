@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "target": "es6",
+    "sourceMap": true,
+    "baseUrl": "src",
+    "experimentalDecorators": true,
+    "lib": [
+      "es2020",
+      "dom"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "css-shorthand-lookup",
+  "version": "0.0.1",
+  "description": "A small CSS shorthand property lookup library for CSS parsing and CSSOM traversal",
+  "main": "dist/index.js",
+  "types": "dist/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest --coverage",
+    "build:clear": "mkdir -p ./dist && rm -rf ./dist",
+    "build:rollup": "rollup -c rollup.config.js",
+    "build:types": "tsc -d --emitDeclarationOnly --outDir ./dist",
+    "build": "npm run build:clear && npm run build:rollup && npm run build:types",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "css",
+    "cssom"
+  ],
+  "author": "Sergey Peshkov",
+  "license": "ISC",
+  "repository": "https://github.com/8coon/css-shorthand-lookup",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/plugin-typescript": "^8.2.5",
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "jsdom": "^16.7.0",
+    "rollup": "^2.56.1",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  }
+}
