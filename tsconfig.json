@@ -3,7 +3,7 @@
     "module": "es6",
     "moduleResolution": "Node",
     "esModuleInterop": true,
-    "target": "es6",
+    "target": "es5",
     "sourceMap": true,
     "baseUrl": "src",
     "experimentalDecorators": true,
