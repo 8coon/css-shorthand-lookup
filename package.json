@@ -1,6 +1,6 @@
 {
   "name": "css-shorthand-lookup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small CSS shorthand property lookup library for CSS parsing and CSSOM traversal",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
