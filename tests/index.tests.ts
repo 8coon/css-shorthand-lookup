@@ -11,6 +11,7 @@ describe("lookupShorthands", () => {
 		expect(lookupShorthands("border-top-color")).toEqual([
 			"border-color",
 			"border-top",
+			"border",
 		]);
 	});
 
