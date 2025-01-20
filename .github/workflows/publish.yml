@@ -15,6 +15,6 @@ jobs:
           node-version: 20
           registry-url: 'https://registry.npmjs.org'
       - run: npm install
-      - run: npm publish
+      - run: npm publish --tag=latest --access=public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPMJS_PUBLISH_TOKEN }}
