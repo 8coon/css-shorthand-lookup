@@ -126,9 +126,10 @@ for (const shorthand of shorthandKeys) {
 
 // Adding border fallback for each full property
 for (const side of sides) {
-    for (const prop of borderCommonProps) {
-        const fullBorderProp = `border-${side}-${prop}`;
-        shorthandReverseMap[fullBorderProp] = shorthandReverseMap[fullBorderProp] ?? [];
-        shorthandReverseMap[fullBorderProp].push("border");
-    }
+	for (const prop of borderCommonProps) {
+		const fullBorderProp = `border-${side}-${prop}`;
+		shorthandReverseMap[fullBorderProp] =
+			shorthandReverseMap[fullBorderProp] ?? [];
+		shorthandReverseMap[fullBorderProp].push("border");
+	}
 }
