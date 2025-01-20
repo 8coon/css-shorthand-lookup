@@ -1,4 +1,4 @@
-name: 'Publish npm package from version in package.json'
+name: 'Publish dev version of npm package'
 
 on:
   - workflow_dispatch
@@ -10,10 +10,12 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: 14
+          node-version: 20
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
+      - name: Assigning new version
+        run: npm version prerelease --commit-hooks=false --git-tag-version=false --preid=dev-${GITHUB_SHA:0:6}
       - name: Publishing release
-        run: npm run publish
+        run: npm publish --tag=dev --access=public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPMJS_PUBLISH_TOKEN }}

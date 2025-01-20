@@ -62,6 +62,7 @@ Object {
   "border-bottom-color": Array [
     "border-color",
     "border-bottom",
+    "border",
   ],
   "border-bottom-left-radius": Array [
     "border-radius",
@@ -72,10 +73,12 @@ Object {
   "border-bottom-style": Array [
     "border-style",
     "border-bottom",
+    "border",
   ],
   "border-bottom-width": Array [
     "border-width",
     "border-bottom",
+    "border",
   ],
   "border-color": Array [
     "border",
@@ -83,26 +86,32 @@ Object {
   "border-left-color": Array [
     "border-color",
     "border-left",
+    "border",
   ],
   "border-left-style": Array [
     "border-style",
     "border-left",
+    "border",
   ],
   "border-left-width": Array [
     "border-width",
     "border-left",
+    "border",
   ],
   "border-right-color": Array [
     "border-color",
     "border-right",
+    "border",
   ],
   "border-right-style": Array [
     "border-style",
     "border-right",
+    "border",
   ],
   "border-right-width": Array [
     "border-width",
     "border-right",
+    "border",
   ],
   "border-style": Array [
     "border",
@@ -110,6 +119,7 @@ Object {
   "border-top-color": Array [
     "border-color",
     "border-top",
+    "border",
   ],
   "border-top-left-radius": Array [
     "border-radius",
@@ -120,10 +130,12 @@ Object {
   "border-top-style": Array [
     "border-style",
     "border-top",
+    "border",
   ],
   "border-top-width": Array [
     "border-width",
     "border-top",
+    "border",
   ],
   "border-width": Array [
     "border",
